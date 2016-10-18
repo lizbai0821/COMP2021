@@ -1,0 +1,15 @@
+Name: Lai Hang CHAN (15085447d)
+Assignment: Assignment 1
+Date Submitted: Thursday, September 29, 2016 3:05:52 AM CST
+Current Grade: Needs Grading
+
+Submission Field:
+There is no student submission text data for this assignment.
+
+Comments:
+There are no student comments for this assignment.
+
+Files:
+	Original filename: MiniFloat.java
+	Filename: Assignment 1_15085447d_attempt_2016-09-29-03-05-52_MiniFloat.java
+

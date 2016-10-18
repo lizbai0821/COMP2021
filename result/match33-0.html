@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+ <TITLE>15072577d</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script type="text/javascript">
+  <!--
+   function ZweiFrames(URL1,F1,URL2,F2)
+   {
+    parent.frames[F1].location.href=URL1;
+    parent.frames[F2].location.href=URL2;
+   }
+  //-->
+  </script>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<HR>
+<H3><CENTER>MiniFloat.java</CENTER></H3><HR>
+<PRE>
+<A NAME="0"></A><FONT color="#0000ff"><A HREF="javascript:ZweiFrames('match33-1.html#0',3,'match33-top.html#0',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>public class MiniFloat {
+
+    public static void main(String[] args){
+        printIntegralMiniFloats();
+    }
+
+    private static float miniFloatFromString(String bitSequence){
+        // Task1: compute the miniFloat value from &quot;bitSequence&quot;;
+    	float minifloat = Float.parseFloat(bitSequence);</B></FONT>
+    	return minifloat;
+<A NAME="1"></A>    }
+
+    private static void printIntegralMiniFloats(){
+<FONT color="#f63526"><A HREF="javascript:ZweiFrames('match33-1.html#1',3,'match33-top.html#1',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>        String[] bitSequences = getValidMiniFloatBitSequences();
+        // Task 2: print all the miniFloat values that are integer;
+        
+    }
+
+    /**
+     * Get all valid bit sequences for miniFloat values.
+     */
+    private static String[] getValidMiniFloatBitSequences(){
+        int nbrValues = (int)Math.pow(2, MINI_FLOAT_SIZE);
+
+        String[] result = new String[nbrValues];
+        for(int i = 0; i &lt; nbrValues; i++){
+
+            String full = String.format(&quot;%&quot; + Integer.SIZE + &quot;s&quot;, Integer.toBinaryString(i))
+                    .replace(' ', '0');
+            result[i] = full.substring(Integer.SIZE - MINI_FLOAT_SIZE, Integer.SIZE);
+        }
+        return result;
+    }
+
+    private static int MINI_FLOAT_SIZE = 8;
+
+}</B></FONT>
+</PRE>
+</BODY>
+</HTML>

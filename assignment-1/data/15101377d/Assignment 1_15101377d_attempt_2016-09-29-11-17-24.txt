@@ -1,0 +1,15 @@
+Name: Jiyue PARK (15101377d)
+Assignment: Assignment 1
+Date Submitted: Thursday, September 29, 2016 11:17:24 AM CST
+Current Grade: Needs Grading
+
+Submission Field:
+There is no student submission text data for this assignment.
+
+Comments:
+There are no student comments for this assignment.
+
+Files:
+	Original filename: MiniFloat.java
+	Filename: Assignment 1_15101377d_attempt_2016-09-29-11-17-24_MiniFloat.java
+
